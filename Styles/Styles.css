@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif;
+}
+
+nav {
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nameLogo {
+  padding: 16px;
+}
+nav .navSections .dropdown {
+  padding-left: 20px;
+  position: relative;
+  display: inline-block;
+}
+nav .navSections .dropdown .dropdownBtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+nav .navSections .dropdown .services {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+nav .navSections .dropdown .services a:hover {
+  background-color: #ddd;
+}
+nav .navSections .dropdown:hover .services {
+  display: block;
+}
+nav .navSections .dropdown:hover .dropdownBtn {
+  background-color: gray;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(133, 128, 128);
+}
+
+.serviceCards {
+  background-color: red;
+}/*# sourceMappingURL=Styles.css.map */
