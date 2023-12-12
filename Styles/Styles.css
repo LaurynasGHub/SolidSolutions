@@ -1,49 +1,96 @@
 * {
-  font-family: sans-serif;
+  font-family: montserrat;
 }
 
 nav {
-  padding: 0 30px;
+  padding-left: 30px;
+  padding-right: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 nav .nameLogo {
+  font-size: 32px;
   padding: 16px;
 }
 nav .navSections .dropdown {
-  padding-left: 20px;
   position: relative;
   display: inline-block;
+  flex-wrap: nowrap;
 }
 nav .navSections .dropdown .dropdownBtn {
   background-color: white;
   color: black;
+  width: 180px;
   padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
+  text-align: center;
 }
 nav .navSections .dropdown .services {
+  font-size: 16px;
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
+  background-color: white;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 180px;
+  border-radius: 2px;
   z-index: 1;
 }
 nav .navSections .dropdown .services a:hover {
-  background-color: #ddd;
+  background-color: rgb(239, 235, 235);
 }
 nav .navSections .dropdown:hover .services {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 nav .navSections .dropdown:hover .dropdownBtn {
-  background-color: gray;
+  background-color: rgb(209, 206, 206);
+  border-radius: 3px;
 }
 nav a {
   text-decoration: none;
-  color: rgb(133, 128, 128);
+  color: black;
+  padding: 4px;
 }
 
-.serviceCards {
-  background-color: red;
+.serviceDescription {
+  background-color: rgb(255, 190, 69);
+  padding-bottom: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.serviceDescription h1 {
+  font-size: 20px;
+  color: black;
+  margin: 0 auto;
+  padding: 10px;
+}
+.serviceDescription .serviceCards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.serviceDescription .serviceCards .serviceCard {
+  margin: 0 10px;
+  padding: 10px;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.serviceDescription .serviceCards .serviceCard h1 {
+  text-align: center;
+}
+.serviceDescription .serviceCards .serviceCard h2 {
+  padding: 10px;
+}
+.serviceDescription .serviceCards .serviceCard p {
+  text-align: center;
+  width: 450px;
 }/*# sourceMappingURL=Styles.css.map */

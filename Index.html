@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="./Styles/Styles.css" />
     <title>SolidSolutions</title>
 
-    <!-- Bootstrap part, initialize boostrap for html -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap part, initialize bootstrap for html -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,32 +37,95 @@
     <nav>
       <div class="nameLogo">SolidSolutions</div>
       <div class="navSections">
+        <!--insert size on 600px to change menu to side-->
         <div class="dropdown">
           <button class="dropdownBtn">Programming</button>
           <div class="services">
-            <a href="#">Programmed functions</a>
+            <a href="#">Functions</a>
             <a href="#">Custom function</a>
-            <a href="#">Modelling</a>
+            <a href="#">AdvancedUtilities</a>
           </div>
         </div>
         <div class="dropdown">
-          <button class="dropdownBtn">Calculations</button>
+          <button class="dropdownBtn">Simulations</button>
           <div class="services">
-            <a href="#">Programmed functions</a>
-            <a href="#">Calculations</a>
-            <a href="#">Modelling</a>
+            <a href="#">Static</a>
+            <!-- <a href="#">Simulations</a> -->
           </div>
         </div>
         <div class="dropdown">
-          <button class="dropdownBtn">Modelling</button>
+          <button class="dropdownBtn">Other</button>
           <div class="services">
-            <a href="#">Programmed functions</a>
-            <a href="#">Calculations</a>
             <a href="#">Modelling</a>
+            <a href="#">General help</a>
           </div>
         </div>
       </div>
     </nav>
-    <div class="serviceCards">SERVICE CARDS</div>
+    <!-- service cards, description of services and what we are selling -->
+    <div class="serviceDescription">
+      <h1>
+        We offer wide variety, high quality services, including, but not limited
+        to:
+      </h1>
+      <div class="serviceCards">
+        <div class="serviceCard">
+          <h2>Programming</h2>
+          <ul>
+            <li><h1>Functions</h1></li>
+          </ul>
+          <p>A variety of already made functions to choose from.</p>
+          <ul>
+            <li><h1>Custom functions</h1></li>
+          </ul>
+          <p>A custom function that we programm according to Your needs.</p>
+          <ul>
+            <li><h1>AdvancedUtilities</h1></li>
+          </ul>
+          <p>
+            A SolidWorks add-in with variety of functions for more advanced BOM
+            and Drawings generation, as well as other productivity improvements.
+          </p>
+        </div>
+        <div class="serviceCard">
+          <h2>Simulations</h2>
+          <ul>
+            <li><h1>Static</h1></li>
+          </ul>
+          <p>
+            Static simulations for Your models, can come with report- Your
+            template or our standart template
+          </p>
+          <!-- <ul>
+            <li><h1>Custom functions</h1></li>
+          </ul>
+          <p>A custom function that we programm according to Your needs.</p>
+          <ul>
+            <li><h1>AdvancedUtilities</h1></li>
+          </ul>
+          <p>
+            A SolidWorks add-in with variety of functions for more advanced BOM
+            and Drawings generation, as well as other productivity improvements.
+          </p> -->
+        </div>
+        <div class="serviceCard">
+          <h2>Other</h2>
+          <ul>
+            <li><h1>Modelling</h1></li>
+          </ul>
+          <p>
+            We can make models according to Your task with or without drawings
+            or other documents.
+          </p>
+          <ul>
+            <li><h1>General help</h1></li>
+          </ul>
+          <p>
+            Any help that You might need- answers to your questions about
+            SolidWorks usage and problems.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
